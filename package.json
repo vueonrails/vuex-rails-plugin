@@ -1,6 +1,6 @@
 {
   "name": "vuex-rails-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vuex plugin that easily maps Rails resources to Vuex modules",
   "main": "index.js",
   "scripts": {
