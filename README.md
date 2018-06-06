@@ -21,7 +21,8 @@ The plugin can be imported into any Vuex store like so:
 ```js
 // store.js
 import Vuex from 'vuex'
-import Vue from 'vue
+import Vue from 'vue'
+Vue.use(Vuex)
 import VuexRailsPlugin from 'vuex-rails-plugin/src/VuexRailsPlugin'
 
 export default new Vuex.Store({
