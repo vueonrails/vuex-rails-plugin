@@ -135,6 +135,7 @@ export default function VuexRailsPlugin(resource) {
         },
         [CREATE] (state, { item }) {
           state.error = null
+          state.current = item
           if (state.all.find(i => i.id === item.id) !== undefined) {
             updateItem(item, state.all)
           } else {
@@ -143,7 +144,7 @@ export default function VuexRailsPlugin(resource) {
         },
         [UPDATE] (state, { item }) {
           state.error = null
-          state.current = null
+          state.current = item
           updateItem(item, state.all)
         },
         [DESTROY] (state, { item }) {
