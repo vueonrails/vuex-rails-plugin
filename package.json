@@ -1,6 +1,6 @@
 {
   "name": "vuex-rails-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vuex plugin that easily maps Rails resources to Vuex modules",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rlafranchi/vuex-rails-plugin.git"
+    "url": "git+https://github.com/vueonrails/vuex-rails-plugin.git"
   },
   "keywords": [
     "Vue",
@@ -18,9 +18,9 @@
   "author": "Richard LaFranchi <rlafranchi@icloud.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rlafranchi/vuex-rails-plugin/issues"
+    "url": "https://github.com/vueonrails/vuex-rails-plugin/issues"
   },
-  "homepage": "https://github.com/rlafranchi/vuex-rails-plugin#readme",
+  "homepage": "https://github.com/vueonrails/vuex-rails-plugin#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "vue": "^2.5.16",
