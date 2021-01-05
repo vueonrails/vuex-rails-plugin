@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/vueonrails/vuex-rails-plugin#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "vue": "^2.5.16",
     "vuex": "^3.0.1"
   }
